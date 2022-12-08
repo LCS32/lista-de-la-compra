@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background: url(background.jpg);
+    background: linear-gradient(to right, rgba(123, 199, 204, 0.6), rgba(190, 147, 197, 0.6)), url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+}
+
+form {
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.articulo {
+    margin: 0 auto;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    width: 50%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+}
+
+input::placeholder{
+    color: black;
+    font-size: .8rem;
+    font-family: Poppins, sans-serif;
+    border: none;
+    font-weight: 300;
+}
+
+input:focus{
+    outline: none;
+}
+
+span {
+    margin-top: 5px;
+    font-weight: 300;
+    color: black;
+}
+
+button {
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.comprar {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+   
+}
+
+li {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    margin: 5px auto;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+}
+
+.borrar-producto {
+    padding: 5px;
+    color: red;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.error {
+    background: rgba(255, 0, 0, 0.329);
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto 0px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
